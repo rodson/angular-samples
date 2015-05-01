@@ -18,8 +18,11 @@
   "homepage": "https://github.com/rodson/angular-samples",
   "devDependencies": {
     "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-concat-css": "^2.2.0",
     "gulp-jshint": "^1.10.0",
     "gulp-load-plugins": "^0.10.0",
+    "gulp-sass": "^1.3.3",
     "jshint-stylish": "^1.0.1"
   }
 }
