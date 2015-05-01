@@ -1,0 +1,25 @@
+{
+  "name": "angular-samples",
+  "version": "1.0.0",
+  "description": "samples of anguarjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodson/angular-samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodson/angular-samples/issues"
+  },
+  "homepage": "https://github.com/rodson/angular-samples",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-load-plugins": "^0.10.0",
+    "jshint-stylish": "^1.0.1"
+  }
+}
