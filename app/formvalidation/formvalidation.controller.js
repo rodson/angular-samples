@@ -9,7 +9,6 @@
     var vm = this;
 
     vm.submit = submit;
-    vm.pattern = '[a-zA-Z]';
 
     function submit() {
       console.log('submit is fired');
