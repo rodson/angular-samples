@@ -18,6 +18,10 @@
         templateUrl: 'app/formvalidation/formvalidation.html',
         controller: 'FormValidationController',
         controllerAs: 'vm'
+      })
+      .state('testchildscope', {
+        url: '/testchildscope',
+        templateUrl: 'app/testchildscope/testchildscope.html'
       });
   }
 })();

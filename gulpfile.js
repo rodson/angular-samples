@@ -24,6 +24,7 @@ gulp.task('concat', function() {
   return gulp.src([
     'app/**/*module.js',
     'app/**/*.js',
+    '!app/app.js',
     '!app/**/*.spec.js'
   ])
     .pipe($.concat('app.js'))
