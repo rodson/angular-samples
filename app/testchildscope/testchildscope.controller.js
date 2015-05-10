@@ -2,7 +2,6 @@
   'use strict';
 
   function TestParentCtrl() {
-    $scope.test = 'parent';
   }
 
   function TestChildCtrl() {

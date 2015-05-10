@@ -1,1 +1,11 @@
 <h1>Test Child Scope</h1>
+
+<div ng-controller="TestParentCtrl">
+  <input type="text" ng-model="test">
+  {{test}}
+
+  <div ng-controller="TestChildCtrl">
+    <input type="text" ng-model="test">
+    {{test}}
+  </div>
+</div>
