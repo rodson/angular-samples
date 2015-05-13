@@ -22,6 +22,10 @@
       .state('testchildscope', {
         url: '/testchildscope',
         templateUrl: 'app/testchildscope/testchildscope.html'
+      })
+      .state('testdirectivescope', {
+        url: '/testdirectivescope',
+        templateUrl: 'app/testdirectivescope/testdirectivescope.html'
       });
   }
 })();

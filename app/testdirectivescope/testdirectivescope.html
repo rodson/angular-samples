@@ -1,0 +1,38 @@
+<h1>Test Directive Scope</h1>
+<div ng-controller="MyCtrl">
+
+  <h2>
+    MyCtrl
+  </h2>
+  <p>
+    {{aaa}}
+    {{myNewProp}}
+    {{loggedInUser.name}}
+    <input type="text" ng-model="bbb">
+  </p>
+
+  <h2>
+    MyFirst
+  </h2>
+  <p>
+    <my-first>
+      {{aaa}}
+    </my-first>
+  </p>
+
+  <h2>
+    MySecond
+  </h2>
+  <p>
+    <my-second>
+      {{myNewProp}}
+    </my-second>
+  </p>
+  <h2>
+    MyThird
+  </h2>
+  <p>
+    <my-third user="bbb" aa="{{bbb}}">
+    </my-third>
+  </p>
+</div>
