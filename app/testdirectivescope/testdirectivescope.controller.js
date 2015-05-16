@@ -13,7 +13,7 @@
     return {
       scope: false,
       link: function(scope, el) {
-        scope.myNewProp = "OOPS, I'm on the parent!";
+        scope.myNewProp = 'OOPS, I am on the parent!';
       }
     };
   }
@@ -22,9 +22,9 @@
     return {
       scope: true,
       link: function(scope, el) {
-        scope.myNewProp = "reset new prop";
+        scope.myNewProp = 'reset new prop';
       }
-    }
+    };
   }
 
   function myThird() {
@@ -35,13 +35,13 @@
         '<div><input ng-model="aa" /></div>'
       ].join(''),
       scope: {
-        user: "=",
-        aa: "@"
+        user: '=',
+        aa: '@'
       },
       link: function(scope) {
         console.log(scope.user);
       }
-    }
+    };
   }
 
   angular
