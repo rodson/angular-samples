@@ -26,6 +26,10 @@
       .state('testdirectivescope', {
         url: '/testdirectivescope',
         templateUrl: 'app/testdirectivescope/testdirectivescope.html'
+      })
+      .state('tabdirective', {
+        url: '/tabdirective',
+        templateUrl: 'app/tabdirective/tabdirective.html'
       });
   }
 })();
